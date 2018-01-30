@@ -1,0 +1,16 @@
+{
+  "header": {
+    "register": "Register",
+    "login": "Login",
+    "allGambles": "All Gambles",
+    "newGables": "New Gambles",
+    "highScores": "High Scores"
+  },
+  "home": {
+    "hello": "hello world!"
+  },
+  "login": {
+    "email": "Email address",
+    "password": "Password"
+  }
+}

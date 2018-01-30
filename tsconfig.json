@@ -1,0 +1,46 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "outDir": "./dist/out-tsc",
+    "baseUrl": "./src",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es5",
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "lib": [
+      "es2017",
+      "dom"
+    ],
+    "paths": {
+      "@enums/*": [
+        "app/enums/*"
+      ],
+      "@helpers/*": [
+        "app/helpers/*"
+      ],
+      "@models/*": [
+        "app/models/*"
+      ],
+      "@modules/*": [
+        "app/modules/*"
+      ],
+      "@redux/*": [
+        "app/redux/*"
+      ],
+      "@components/*": [
+        "app/components/*"
+      ],
+      "@environments/*": [
+        "environments/*"
+      ]
+    }
+  },
+  "angularCompilerOptions": {
+    "preserveWhitespaces": false
+  }
+}
